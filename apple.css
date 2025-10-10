@@ -1,0 +1,11 @@
+* {
+  margin: 0 auto;
+}
+.layout {
+  width: 1920px;
+  margin: 0 auto;
+}
+.header-menu {
+  width: 1920px;
+  height: 44px;
+}
