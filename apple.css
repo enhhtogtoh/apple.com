@@ -143,7 +143,6 @@
   background-image: url(./ipad.png);
   background-position: center;
   background-size: cover;
-  /* flex-shrink: 0; */
 }
 .title1 {
   display: flex;
@@ -339,7 +338,6 @@
 }
 .scroll {
   width: 100vw;
-  /* height: 30vw; */
   display: flex;
   overflow: scroll;
   position: relative;
@@ -355,35 +353,127 @@ a {
   display: flex;
   gap: 12px;
   width: 100vw;
-  /* object-fit: cover; */
 }
-.photo {
+.scroll-button {
+  width: 133px;
+  height: 44px;
+  border-radius: 9999px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  border: none;
+  background-color: #f5f5f7;
+  margin: 0;
+}
+.scroll-title {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+.scroll-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+.scroll-dot {
+  margin: 0;
+}
+.photo1 {
+  background-image: url(./napoleon.jpg);
+  background-position: center;
+  background-size: cover;
   width: 1250px;
   height: 668px;
   scroll-snap-align: center;
   flex-shrink: 0;
-  opacity: 99%;
-
-  /* display: flex; */
-  /* flex-direction: row; */
 }
-/* .stream {
-  width: 133px;
-  height: 44px;
-  position: relative;
-  top: 580px;
-  right: 1210px;
-  font-size: 17px;
-  font-family: "Inter", sans-serif;
-  border-radius: 999px;
-  background-color: #f5f5f7;
-  border: none;
-} */
-/* .stream-text {
-  display: flex;
-  flex-direction: row;
+.photo2 {
+  background-image: url(./bad-monkey.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo3 {
+  background-image: url(./instigators.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo4 {
+  background-image: url(./k-pop-idols.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo5 {
+  background-image: url(./season-pass.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo6 {
+  background-image: url(./pressumed-innocent.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo7 {
+  background-image: url(./pachinko.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo8 {
+  background-image: url(./baseball.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo9 {
+  background-image: url(./lady-in-the-lake.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.photo10 {
+  background-image: url(./morning-show.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.stream-and-text {
   color: white;
   position: relative;
-  top: 580px;
-  right: 1100px;
-} */
+  top: 570px;
+  left: 70px;
+  display: flex;
+  margin: 0;
+  gap: 20px;
+  align-items: center;
+}
