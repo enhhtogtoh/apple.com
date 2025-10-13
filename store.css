@@ -1,0 +1,49 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.layout {
+  width: 1920px;
+  margin: 0 auto;
+}
+.header-menu {
+  height: 44px;
+  background-color: #f5f5f7cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-family: "Inter", sans-serif;
+}
+.header-text {
+  margin: 0;
+}
+.apple-icon {
+  margin: 0;
+}
+.search-button {
+  margin: 0;
+}
+.market-button {
+  margin: 0;
+}
+.header-title {
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+a {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+.store {
+  background: linear-gradient();
+}

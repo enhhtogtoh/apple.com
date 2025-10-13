@@ -3,10 +3,11 @@
   padding: 0 auto;
 }
 .layout {
-  width: 1920px;
+  width: 100vw;
   margin: 0 auto;
 }
 .header-menu {
+  width: 100vw;
   height: 44px;
   background-color: #f5f5f7cc;
   display: flex;
@@ -19,9 +20,19 @@
   font-family: "Inter", sans-serif;
 }
 .header-text {
-  margin: 0 auto;
+  margin: 0;
+}
+.apple-icon {
+  margin: 0;
+}
+.search-button {
+  margin: 0;
+}
+.market-button {
+  margin: 0;
 }
 .header-title {
+  width: 100vw;
   height: 52px;
   display: flex;
   justify-content: center;
@@ -32,20 +43,24 @@
 }
 .iphone-background {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 12px;
 }
 .iphone16pro {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
   background-image: url(./ip16pro.png);
   font-family: "Inter", sans-serif;
+  background-position: center;
+  background-size: cover;
 }
 .iphone16 {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
   font-family: "Inter", sans-serif;
   background-image: url(./ip16.png);
+  background-position: center;
+  background-size: cover;
 }
 .iphone-title {
   font-size: 52px;
@@ -88,9 +103,11 @@
   top: 115px;
 }
 .apple-logo-color {
-  width: 1920px;
+  width: 100vw;
   height: 692px;
   background-image: url(./apple_logo_color.png);
+  background-position: center;
+  background-size: cover;
 }
 .lg-title {
   display: flex;
@@ -117,12 +134,16 @@
 }
 .containers {
   display: flex;
+  width: 100vw;
   gap: 12px;
 }
 .container-left-1 {
-  width: 942px;
+  flex: 1;
   height: 580px;
   background-image: url(./ipad.png);
+  background-position: center;
+  background-size: cover;
+  /* flex-shrink: 0; */
 }
 .title1 {
   display: flex;
@@ -147,9 +168,12 @@
   font-family: "Inter", sans-serif;
 }
 .container-right-1 {
-  width: 942px;
+  flex: 1;
   height: 580px;
+  flex-shrink: 0;
   background-image: url(./airpod.png);
+  background-position: center;
+  background-size: cover;
 }
 .airpods-text {
   color: #f5f5f7;
@@ -169,9 +193,11 @@
   top: 401px;
 }
 .container-left-2 {
-  width: 942px;
+  flex: 1;
   height: 580px;
   background-image: url(./iwatch.png);
+  background-position: center;
+  background-size: cover;
 }
 .watch-title {
   font-family: "Inter", sans-serif;
@@ -199,9 +225,11 @@
   gap: 10px;
 }
 .container-right-2 {
-  width: 942px;
+  flex: 1;
   height: 580px;
   background-image: url(./macbook.png);
+  background-position: center;
+  background-size: cover;
 }
 .mac-title {
   font-size: 36px;
@@ -219,9 +247,11 @@
   top: 48px;
 }
 .container-left-3 {
-  width: 942px;
+  flex: 1;
   height: 580px;
   background-image: url(./tradein.png);
+  background-position: center;
+  background-size: cover;
 }
 .trade {
   display: flex;
@@ -253,9 +283,11 @@
   top: 58px;
 }
 .container-right-3 {
-  width: 942px;
+  flex: 1;
   height: 580px;
   background-image: url(./card.png);
+  background-position: center;
+  background-size: cover;
 }
 .apply-now {
   width: 112px;
@@ -290,14 +322,68 @@
 .buy:hover {
   background-color: #0071e3;
   color: #ffffff;
+  cursor: pointer;
 }
 .learn-more:hover {
   background-color: #0090f7;
+  cursor: pointer;
 }
 .trade-button:hover {
   background-color: #0090f7;
+  cursor: pointer;
 }
 .apply-now:hover {
   background-color: #0071e3;
   color: #ffffff;
+  cursor: pointer;
 }
+.scroll {
+  width: 100vw;
+  /* height: 30vw; */
+  display: flex;
+  overflow: scroll;
+  position: relative;
+  top: 12px;
+  scroll-snap-type: x mandatory;
+}
+a {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+.photos {
+  display: flex;
+  gap: 12px;
+  width: 100vw;
+  /* object-fit: cover; */
+}
+.photo {
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  opacity: 99%;
+
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+/* .stream {
+  width: 133px;
+  height: 44px;
+  position: relative;
+  top: 580px;
+  right: 1210px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+  border: none;
+} */
+/* .stream-text {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  position: relative;
+  top: 580px;
+  right: 1100px;
+} */
