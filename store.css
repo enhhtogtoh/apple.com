@@ -1,6 +1,7 @@
 * {
   margin: 0 auto;
   padding: 0 auto;
+  background-color: #f5f5f7cc;
 }
 .layout {
   width: 100vw;
@@ -9,7 +10,6 @@
 .header-menu {
   width: 100vw;
   height: 44px;
-  background-color: #f5f5f7cc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,11 +59,13 @@ a {
   font-size: 44px;
   margin: 0;
 }
+
 .gift {
   font-size: 44px;
   color: #6e6e73;
   margin: 0;
 }
+
 .section-header {
   font-family: "Inter", sans-serif;
   display: flex;
@@ -72,6 +74,7 @@ a {
   gap: 32px;
   margin: 0;
 }
+
 .uusalt {
   width: 100%;
 }
@@ -94,9 +97,102 @@ a {
   justify-content: space-between;
   padding: 80px 140px;
 }
+
 .shopping-help {
   margin: 0;
   display: flex;
   gap: 16px;
   flex-direction: column;
+}
+.list-item {
+  width: 150px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.product-list {
+  display: flex;
+  gap: 20px;
+  padding: 0 140px;
+  align-items: center;
+}
+.back-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gol {
+  width: 100vw;
+  height: 3826px;
+  margin-top: 60px;
+}
+
+.section1 {
+  width: 100vw;
+  height: 558px;
+}
+.section1-title {
+  width: 467px;
+  height: 34px;
+  margin: 0;
+  padding: 0 140px;
+  display: flex;
+  gap: 16px;
+  font-family: "Inter", sans-serif;
+}
+.first-text {
+  margin: 0;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 50%,
+    #f2416b 100%
+  );
+  font-size: 24px;
+}
+.second-text {
+  margin: 0;
+  font-size: 24px;
+  color: #6e6e73;
+}
+.container1 {
+  position: relative;
+  height: 500px;
+  width: 480px;
+  /* border-radius: 18px; */
+}
+.photos {
+  border-radius: 18px;
+  width: 480px;
+  height: 500px;
+}
+.container-text {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+
+  gap: 12px;
+}
+.container-header {
+  color: #b64400;
+  font-size: 12px;
+  margin-bottom: 12px;
+  background-color: transparent;
+}
+.container-nav {
+  font-size: 26px;
+  margin-bottom: 12px;
+  background-color: transparent;
+}
+.container-price {
+  font-size: 18px;
+  background-color: transparent;
 }
