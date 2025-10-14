@@ -347,9 +347,10 @@
   width: 100vw;
   display: flex;
   overflow: scroll;
+  scroll-behavior: smooth;
   position: relative;
   top: 12px;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: none;
 }
 a {
   margin: 0;
@@ -483,4 +484,21 @@ a {
   margin: 0;
   gap: 20px;
   align-items: center;
+}
+/* цэгэн скролл хийх таг */
+.dots {
+  display: flex;
+  margin-top: 14px;
+  gap: 10px;
+  justify-content: center;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  border-radius: 50%;
+  background-color: #0000006b;
+}
+.dot:hover {
+  opacity: 1;
 }

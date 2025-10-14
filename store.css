@@ -164,12 +164,14 @@ a {
 .container1 {
   position: relative;
   height: 500px;
-  width: 480px;
+  width: 400px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
   /* border-radius: 18px; */
 }
 .photos {
   border-radius: 18px;
-  width: 480px;
+  width: 400px;
   height: 500px;
 }
 .container-text {
@@ -178,21 +180,63 @@ a {
   left: 30px;
   background-color: transparent;
   font-family: "Inter", sans-serif;
+  /* color: red; */
 
   gap: 12px;
 }
-.container-header {
+.container-nav {
   color: #b64400;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 12px;
   background-color: transparent;
 }
-.container-nav {
+.container-header {
   font-size: 26px;
   margin-bottom: 12px;
   background-color: transparent;
+  font-weight: 700;
 }
 .container-price {
-  font-size: 18px;
+  font-size: 16px;
   background-color: transparent;
+}
+.container-header1 {
+  color: white;
+  background-color: transparent;
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+.container-price1 {
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+}
+.scroll-container {
+  width: 100vw;
+}
+.scroll-container1 {
+  display: flex;
+  margin-top: 24px;
+  gap: 20px;
+  width: 100vw;
+  margin-left: 140px;
+  top: 24px;
+  right: 140px;
+  left: 140px;
+  scroll-snap-type: x mandatory;
+  overflow: scroll;
+}
+.section2 {
+  width: 100vw;
+  height: 558px;
+}
+.section2-title {
+  width: 525px;
+  height: 34px;
+  margin: 0;
+  padding: 0 140px;
+  display: flex;
+  margin-top: 60px;
+  gap: 16px;
+  font-family: "Inter", sans-serif;
 }
