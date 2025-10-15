@@ -136,7 +136,7 @@ a {
   height: 558px;
 }
 .section1-title {
-  width: 467px;
+  width: 547px;
   height: 34px;
   margin: 0;
   padding: 0 140px;
@@ -200,6 +200,7 @@ a {
 }
 .scroll-container {
   width: 100vw;
+  /* height: 560px; */
   /* margin-left: 140px; */
   /* margin-right: 140px; */
 }
@@ -207,8 +208,7 @@ a {
   display: flex;
   margin-top: 24px;
   gap: 20px;
-  width: 100vw;
-  /* margin-left: 140px; */
+  margin-left: 140px;
   /* margin-right: 140px; */
   scroll-snap-type: x mandatory;
   overflow: scroll;
@@ -218,7 +218,7 @@ a {
   height: 558px;
 }
 .section2-title {
-  width: 525px;
+  width: 600px;
   height: 34px;
   margin: 0;
   padding: 0 140px;
@@ -236,6 +236,13 @@ a {
   position: relative;
   height: 500px;
   width: 400px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.container3 {
+  position: relative;
+  width: 313px;
+  height: 500px;
   scroll-snap-align: center;
   flex-shrink: 0;
 }
@@ -283,6 +290,7 @@ a {
   font-family: "Inter", sans-serif;
   background-color: transparent;
 }
+
 .colors {
   background-color: transparent;
   width: 253px;
@@ -290,4 +298,66 @@ a {
   margin: 0;
   margin-top: 20px;
   margin-left: 120px;
+}
+.container4 {
+  position: relative;
+  height: 500px;
+  width: 480px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.container-nav3 {
+  width: 300px;
+  height: 66px;
+  margin-top: 33px;
+  margin-left: 10px;
+  font-size: 26px;
+  background-color: transparent;
+}
+.top-container {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background-color: #ffffff;
+}
+.container5 {
+  width: 313px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-nav4 {
+  width: 238px;
+  height: 84px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  font-size: 22px;
+  top: 82px;
+  left: 30px;
+  margin: 0;
+}
+.container-nav5 {
+  width: 244px;
+  height: 112px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  position: relative;
+  top: 68px;
+  left: 30px;
+  margin: 0;
+}
+.photo1 {
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+.container-header2 {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  margin-left: 10px;
 }
