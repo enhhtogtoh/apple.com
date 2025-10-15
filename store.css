@@ -361,3 +361,110 @@ a {
   background-color: transparent;
   margin-left: 10px;
 }
+.container-header3 {
+  font-size: 12px;
+  font-weight: 700;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+}
+.container-header4 {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  color: white;
+}
+
+.container-nav6 {
+  width: 300px;
+  height: 66px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  color: white;
+  margin: 0;
+  margin-top: 10px;
+}
+.container-nav7 {
+  width: 275px;
+  height: 66px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.container-nav8 {
+  width: 442px;
+  height: 66px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  margin: 0;
+  margin-top: 22px;
+}
+.section3-title {
+  width: 900px;
+  height: 66px;
+  margin: 0;
+  padding: 0 140px;
+  display: flex;
+  margin-top: 60px;
+  gap: 16px;
+  font-family: "Inter", sans-serif;
+}
+.container-price2 {
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.container-text1 {
+  height: 400px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  gap: 12px;
+}
+.order-status {
+  margin-top: 24px;
+}
+.order-button {
+  width: 125px;
+  height: 40px;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.shopping-button {
+  width: 137px;
+  height: 40px;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.return-button {
+  width: 91px;
+  height: 40px;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.your-button {
+  width: 114px;
+  height: 40px;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.quick-text {
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+}
+.footer {
+  margin-top: 100px;
+  margin-left: 140px;
+}
