@@ -164,14 +164,13 @@ a {
 .container1 {
   position: relative;
   height: 500px;
-  width: 400px;
+  width: 480px;
   scroll-snap-align: center;
   flex-shrink: 0;
-  /* border-radius: 18px; */
 }
 .photos {
   border-radius: 18px;
-  width: 400px;
+  width: 480px;
   height: 500px;
 }
 .container-text {
@@ -180,18 +179,17 @@ a {
   left: 30px;
   background-color: transparent;
   font-family: "Inter", sans-serif;
-  /* color: red; */
-
   gap: 12px;
 }
 .container-nav {
-  color: #b64400;
-  font-size: 16px;
+  /* color: #b64400; */
+  font-size: 26px;
   margin-bottom: 12px;
   background-color: transparent;
 }
 .container-header {
-  font-size: 26px;
+  color: #b64400;
+  font-size: 12px;
   margin-bottom: 12px;
   background-color: transparent;
   font-weight: 700;
@@ -200,29 +198,18 @@ a {
   font-size: 16px;
   background-color: transparent;
 }
-.container-header1 {
-  color: white;
-  background-color: transparent;
-  font-size: 26px;
-  margin-bottom: 12px;
-}
-.container-price1 {
-  color: white;
-  background-color: transparent;
-  font-size: 16px;
-}
 .scroll-container {
   width: 100vw;
+  /* margin-left: 140px; */
+  /* margin-right: 140px; */
 }
 .scroll-container1 {
   display: flex;
   margin-top: 24px;
   gap: 20px;
   width: 100vw;
-  margin-left: 140px;
-  top: 24px;
-  right: 140px;
-  left: 140px;
+  /* margin-left: 140px; */
+  /* margin-right: 140px; */
   scroll-snap-type: x mandatory;
   overflow: scroll;
 }
@@ -239,4 +226,68 @@ a {
   margin-top: 60px;
   gap: 16px;
   font-family: "Inter", sans-serif;
+}
+.photo {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+}
+.container2 {
+  position: relative;
+  height: 500px;
+  width: 400px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.container-nav1 {
+  width: 197px;
+  height: 66px;
+  margin-top: 33px;
+  margin-left: 30px;
+  font-size: 26px;
+  background-color: transparent;
+}
+.box {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+.pods {
+  width: 230px;
+  height: 230px;
+  margin-top: 70px;
+  margin-left: 41.5px;
+}
+.description {
+  background-color: transparent;
+  margin-left: 32px;
+}
+.container-header1 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #b64400;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  margin-bottom: 6px;
+}
+.container-nav2 {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  margin-bottom: 32px;
+}
+.container-price1 {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+}
+.colors {
+  background-color: transparent;
+  width: 253px;
+  height: 58px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 120px;
 }
