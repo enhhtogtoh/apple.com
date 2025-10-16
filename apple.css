@@ -31,6 +31,18 @@
 .market-button {
   margin: 0;
 }
+.zuraas {
+  display: none;
+  width: 18px;
+  height: 18px;
+}
+.button1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .header-title {
   width: 100vw;
   height: 52px;
@@ -176,7 +188,7 @@
 .container-right-1 {
   flex: 1;
   height: 580px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   background-image: url(./airpod.png);
   background-position: center;
   background-size: cover;
@@ -486,7 +498,7 @@ a {
   align-items: center;
 }
 /* цэгэн скролл хийх таг */
-.dots {
+/* .dots {
   display: flex;
   margin-top: 14px;
   gap: 10px;
@@ -501,4 +513,80 @@ a {
 }
 .dot:hover {
   opacity: 1;
+} */
+/* for tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-text {
+    display: none;
+  }
+  .button1 {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 0; */
+    margin: 0;
+    position: relative;
+  }
+  .apple-icon {
+    padding: 20px;
+  }
+  .zuraas {
+    display: flex;
+  }
+  .iphone16pro {
+    width: 100vw;
+    height: 650px;
+    background-image: url(./ip16pro-2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .iphone16 {
+    width: 100vw;
+    height: 650px;
+    background-image: url(./ip16-2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .iphone-title {
+    font-size: 42px;
+  }
+  .iphone-subtitle {
+    font-size: 22px;
+  }
+  .apple-logo-color {
+    background-image: url(./apple_logo_color.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .logo-title {
+    font-size: 44px;
+  }
+  .logo-subtitle {
+    font-size: 22px;
+  }
+  .container-left-1 {
+    width: 40%;
+  }
+  .container-right-1 {
+    width: 50vw;
+  }
+  .airpods-text {
+    font-size: 44px;
+  }
+  .ipad-air {
+    width: 40vw;
+  }
+
+  .container-left-2 {
+    height: 490px;
+    background-image: url(./iwatch-2.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #f5f5f7;
+  }
 }
