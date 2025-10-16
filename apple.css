@@ -163,6 +163,24 @@
   position: relative;
   top: 50px;
 }
+.title-1 {
+  display: none;
+}
+.title-2 {
+  display: none;
+}
+.title-3 {
+  display: none;
+}
+.title-4 {
+  display: none;
+}
+.title-5 {
+  display: none;
+}
+.title-6 {
+  display: none;
+}
 .ipad-text {
   font-size: 18px;
   color: #1d1d1f;
@@ -497,8 +515,11 @@ a {
   gap: 20px;
   align-items: center;
 }
+.stream-and-text1 {
+  display: none;
+}
 /* цэгэн скролл хийх таг */
-/* .dots {
+.dots {
   display: flex;
   margin-top: 14px;
   gap: 10px;
@@ -513,7 +534,7 @@ a {
 }
 .dot:hover {
   opacity: 1;
-} */
+}
 /* for tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .header-text {
@@ -570,10 +591,59 @@ a {
     font-size: 22px;
   }
   .container-left-1 {
+    background-image: url(./man.png);
+    background-position: center;
+    background-size: cover;
     width: 40%;
+    height: 490px;
+  }
+  .text-color {
+    display: none;
+  }
+  .title1 {
+    display: none;
+  }
+  .title2 {
+    display: none;
+  }
+  .title3 {
+    display: none;
+  }
+  .title4 {
+    display: none;
+  }
+  .title5 {
+    display: none;
+  }
+  .title6 {
+    display: none;
+  }
+  .title-1 {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    margin-top: 300px;
+    color: white;
+    flex-wrap: wrap;
   }
   .container-right-1 {
+    height: 490px;
+    background-image: url(iwatch-2.png);
+    background-position: center;
+    background-size: cover;
     width: 50vw;
+  }
+  .title-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 30px;
+    color: black;
+  }
+  .watch-2 {
+    display: flex;
+    gap: 10px;
   }
   .airpods-text {
     font-size: 44px;
@@ -584,9 +654,174 @@ a {
 
   .container-left-2 {
     height: 490px;
-    background-image: url(./iwatch-2.png);
+    background-image: url(./macbook-air-2.png);
     background-position: center;
     background-size: cover;
     background-color: #f5f5f7;
   }
+  .title-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .container-right-2 {
+    background-image: url(./small-business.png);
+    background-position: center;
+    background-size: cover;
+    height: 490px;
+  }
+  .title-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .container-left-3 {
+    background-image: url(./carier.png);
+    background-position: center;
+    background-size: cover;
+    height: 490px;
+  }
+  .title-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .container-right-3 {
+    height: 490px;
+    background-image: url(./trade-in.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .title-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .scroll {
+    width: 100vw;
+  }
+  .photo1 {
+    background-image: url(./scroll1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo2 {
+    background-image: url(./scroll2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo3 {
+    background-image: url(./scroll3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo4 {
+    background-image: url(./scroll4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo5 {
+    background-image: url(./scroll5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo6 {
+    background-image: url(./scroll6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo7 {
+    background-image: url(./scroll7.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo8 {
+    background-image: url(./scroll8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo9 {
+    background-image: url(./scroll9.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .photo10 {
+    background-image: url(./scroll10.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 387px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .scroll-button {
+    font-size: 14px;
+  }
+  .scroll-title {
+    font-size: 14px;
+  }
+  .scroll-subtitle {
+    font-size: 14px;
+  }
+  .stream-and-text {
+    display: none;
+  }
+  .stream-and-text1 {
+    color: white;
+    position: relative;
+    top: 330px;
+    left: 30px;
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    align-items: center;
+  }
+}
+@media only screen and (max width: 767px) {
 }
