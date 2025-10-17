@@ -114,6 +114,12 @@
   position: relative;
   top: 115px;
 }
+.ip-title1 {
+  display: none;
+}
+.ip-title2 {
+  display: none;
+}
 .apple-logo-color {
   width: 100vw;
   height: 692px;
@@ -128,6 +134,9 @@
   font-family: "Inter", sans-serif;
   position: relative;
   top: 446px;
+}
+.lg-title2 {
+  display: none;
 }
 .logo-title {
   font-size: 52px;
@@ -190,6 +199,9 @@
   display: flex;
   position: relative;
   top: 400px;
+}
+.text-color-1 {
+  display: none;
 }
 .text-color1 {
   font-size: 14px;
@@ -355,6 +367,9 @@
   font-size: 18px;
   font-family: "Inter", sans-serif;
 }
+.containers-1 {
+  display: none;
+}
 .buy:hover {
   background-color: #0071e3;
   color: #ffffff;
@@ -505,6 +520,11 @@ a {
   scroll-snap-align: center;
   flex-shrink: 0;
 }
+
+.ipadair {
+  width: 100vw;
+}
+
 .stream-and-text {
   color: white;
   position: relative;
@@ -823,5 +843,289 @@ a {
     align-items: center;
   }
 }
-@media only screen and (max width: 767px) {
+/* for phone */
+@media only screen and (min-width: 10px) and (max-width: 767px) {
+  .header-text {
+    display: none;
+  }
+  .layout {
+    width: 100vw;
+  }
+  .header-menu {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .apple-icon {
+    padding: 20px;
+  }
+  .zuraas {
+    display: flex;
+  }
+  .button1 {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  .header-title {
+    height: 58px;
+    width: 100vw;
+    margin: 0;
+  }
+  .iphone16pro {
+    width: 100vw;
+    /* height: 500px; */
+    background-image: url(./iPhone-16-Pro-1.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .ip-title {
+    display: none;
+  }
+  .ip-title1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 500px;
+    gap: 12px;
+  }
+  .iphone-title {
+    font-size: 30px;
+  }
+  .iphone-subtitle {
+    font-size: 18px;
+  }
+  .iphone16 {
+    background-image: url(./iPhone-16-1.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .ip-title2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 80px;
+  }
+  .apple-logo-color {
+    background-image: url(./iPad-air-1.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .lg-title {
+    display: none;
+  }
+  .lg-title2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 70px;
+  }
+  .text-color-1 {
+    display: flex;
+    position: relative;
+    top: 470px;
+  }
+  .text-color2 {
+    font-size: 14px;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(
+      90deg,
+      #0090f7 0%,
+      #ba62fc 50%,
+      #f2416b 100%
+    );
+    font-family: "Inter", sans-serif;
+  }
+  .title1 {
+    display: none;
+  }
+  .title2 {
+    display: none;
+  }
+  .text-color {
+    display: none;
+  }
+  .containers {
+    display: none;
+  }
+  .containers-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .container-left--1 {
+    background-image: url(./man-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    /* margin: 0; */
+  }
+  .container-right--1 {
+    background-image: url(iwatch.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+  }
+  .container-left--2 {
+    background-image: url(./macbook.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+  }
+  .container-right--2 {
+    background-image: url(./smallBusiness.png);
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    width: 100vw;
+    height: 500px;
+  }
+  .container-left--3 {
+    background-image: url(./carrierDeals.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+  }
+  .container-right--3 {
+    background-image: url(./tradein.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+  }
+  .title--1 {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0; */
+    gap: 10px;
+    position: relative;
+    top: 300px;
+  }
+  .title--2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    gap: 10px;
+  }
+  .watch-2 {
+    display: flex;
+    gap: 10px;
+  }
+  .title--3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 50px;
+  }
+  .title--4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 50px;
+    /* margin: 0; */
+  }
+  .title--5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 320px;
+  }
+  .title--6 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 50px;
+  }
+  .scroll {
+    width: 100vw;
+  }
+  .photo1 {
+    background-image: url(./scroll1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo2 {
+    background-image: url(./scroll2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 496px;
+  }
+  .photo3 {
+    background-image: url(./scroll3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo4 {
+    background-image: url(./scroll4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo5 {
+    background-image: url(./scroll5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo6 {
+    background-image: url(./scroll6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo7 {
+    background-image: url(./scroll7.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo8 {
+    background-image: url(./scroll8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo9 {
+    background-image: url(./scroll9.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .photo10 {
+    background-image: url(./scroll10.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 495px;
+  }
+  .stream-and-text1 {
+    display: none;
+  }
+  .stream-and-text {
+    display: none;
+  }
 }

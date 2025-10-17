@@ -468,3 +468,51 @@ a {
   margin-top: 100px;
   margin-left: 140px;
 }
+/* for tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .layout {
+    width: 100vw;
+  }
+  .header-text {
+    display: none;
+  }
+  .button1 {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    background-color: transparent;
+    margin: 0;
+    align-items: center;
+  }
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .apple-icon {
+    margin-left: 20px;
+    /* padding: 20px; */
+    background-color: transparent;
+  }
+  .zuraas {
+    width: 18px;
+    height: 18px;
+  }
+  .section-header {
+    display: flex;
+    /* flex-direction: column; */
+    position: relative;
+    right: 100px;
+  }
+  .store {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(
+      90deg,
+      #0090f7 0%,
+      #ba62fc 50%,
+      #f2416b 100%
+    );
+    font-size: 44px;
+    margin: 0;
+  }
+}
