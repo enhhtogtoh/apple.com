@@ -220,7 +220,6 @@
 .container-right-1 {
   flex: 1;
   height: 580px;
-  /* flex-shrink: 0; */
   background-image: url(./airpod.png);
   background-position: center;
   background-size: cover;
@@ -400,7 +399,8 @@
   scroll-behavior: smooth;
   position: relative;
   top: 12px;
-  scroll-snap-type: none;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 a {
   margin: 0;
@@ -585,9 +585,7 @@ a {
   .header-menu {
     display: flex;
     justify-content: space-between;
-    /* gap: 0; */
     margin: 0;
-    /* position: relative; */
   }
   .apple-icon {
     padding: 20px;
@@ -687,7 +685,6 @@ a {
   .ipad-air {
     width: 40vw;
   }
-
   .container-left-2 {
     height: 490px;
     background-image: url(./macbook-air-2.png);
@@ -871,7 +868,6 @@ a {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    /* position: relative; */
   }
   .apple-icon {
     padding: 20px;
@@ -971,7 +967,6 @@ a {
     flex-direction: column;
     gap: 12px;
   }
-
   .container-left--1 {
     background-image: url(./man-2.jpeg);
     background-position: center;
@@ -1020,7 +1015,6 @@ a {
   .title--1 {
     display: flex;
     flex-direction: column;
-    /* margin: 0; */
     gap: 10px;
     position: relative;
     top: 300px;
@@ -1049,7 +1043,6 @@ a {
     gap: 10px;
     position: relative;
     top: 50px;
-    /* margin: 0; */
   }
   .title--5 {
     display: flex;

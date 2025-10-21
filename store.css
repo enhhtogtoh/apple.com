@@ -107,11 +107,9 @@ a {
 }
 .section {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   padding: 80px 140px;
 }
-
 .shopping-help {
   margin: 0;
   display: flex;
@@ -183,6 +181,7 @@ a {
   border-radius: 18px;
   width: 480px;
   height: 500px;
+  box-shadow: 2px 4px 12px 0 #00000014;
 }
 .container-text {
   position: absolute;
@@ -193,7 +192,6 @@ a {
   gap: 12px;
 }
 .container-nav {
-  /* color: #b64400; */
   font-size: 26px;
   margin-bottom: 12px;
   background-color: transparent;
@@ -211,9 +209,6 @@ a {
 }
 .scroll-container {
   width: 100vw;
-  /* height: 560px; */
-  /* margin-left: 140px; */
-  /* margin-right: 140px; */
 }
 .scroll-container1 {
   height: 510px;
@@ -244,6 +239,7 @@ a {
   width: 400px;
   height: 500px;
   border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 #00000014;
 }
 .container2 {
   position: relative;
@@ -272,6 +268,7 @@ a {
   height: 500px;
   background-color: #ffffff;
   border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 #00000014;
 }
 .pods {
   width: 230px;
@@ -292,18 +289,18 @@ a {
   margin-bottom: 6px;
 }
 .container-nav2 {
+  height: 40px;
   margin: 0;
   font-size: 18px;
   font-family: "Inter", sans-serif;
   background-color: transparent;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 .container-price1 {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   background-color: transparent;
 }
-
 .colors {
   background-color: transparent;
   width: 253px;
@@ -332,6 +329,7 @@ a {
   height: 240px;
   border-radius: 18px;
   background-color: #ffffff;
+  box-shadow: 2px 4px 12px 0 #00000014;
 }
 .container5 {
   width: 313px;
@@ -366,6 +364,7 @@ a {
   width: 480px;
   height: 500px;
   border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 #00000014;
 }
 .container-header2 {
   font-size: 12px;
@@ -373,21 +372,22 @@ a {
   font-family: "Inter", sans-serif;
   background-color: transparent;
   margin-left: 10px;
+  color: #6e6e73;
 }
 .container-header3 {
   font-size: 12px;
   font-weight: 700;
   background-color: transparent;
   font-family: "Inter", sans-serif;
+  color: #6e6e73;
 }
 .container-header4 {
   font-size: 12px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   background-color: transparent;
-  color: white;
+  color: whitesmoke;
 }
-
 .container-nav6 {
   width: 300px;
   height: 66px;
@@ -417,7 +417,6 @@ a {
   margin: 0;
   margin-top: 22px;
 }
-
 .container-price2 {
   font-size: 17px;
   font-family: "Inter", sans-serif;
@@ -428,10 +427,10 @@ a {
   height: 400px;
   position: absolute;
   top: 30px;
-  left: 30px;
   background-color: transparent;
   font-family: "Inter", sans-serif;
   gap: 12px;
+  padding: 0 30px;
 }
 .order-status {
   margin-top: 24px;
@@ -475,12 +474,10 @@ a {
 .footer {
   margin-top: 100px;
   margin-left: 140px;
-  background-color: #f5f5f7cc;
 }
 .order-status {
   display: flex;
   gap: 20px;
-  background-color: #f5f5f7cc;
 }
 .vector {
   background-color: transparent;
@@ -538,6 +535,7 @@ a {
 .back-text:hover {
   border-bottom: solid black;
 }
+
 /* for tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout {
@@ -560,7 +558,6 @@ a {
   }
   .apple-icon {
     margin-left: 20px;
-    /* padding: 20px; */
     background-color: transparent;
   }
   .zuraas {
@@ -569,7 +566,6 @@ a {
   .section {
     padding: 0 20px;
   }
-
   .product-list {
     display: flex;
     padding: 0;
@@ -583,7 +579,6 @@ a {
   .scroll-container1 {
     margin-left: 20px;
   }
-
   .footer {
     margin-left: 20px;
   }
@@ -630,17 +625,21 @@ a {
   .section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
     padding: 0 20px;
-    gap: 20px;
   }
   .shopping-help {
     display: flex;
-    flex-direction: row;
+    margin: 0;
+    margin-left: 50px;
+  }
+  .woman {
+    position: relative;
+    right: 100px;
+    top: 50px;
   }
   .product-list {
     margin-top: 50px;
-    /* margin-left: 20px; */
     width: 100vw;
     display: flex;
     padding: 0;
@@ -658,5 +657,8 @@ a {
   }
   .scroll-container {
     width: 100%;
+  }
+  .order-status {
+    overflow: scroll;
   }
 }
