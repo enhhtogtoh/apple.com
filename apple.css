@@ -549,6 +549,7 @@ a {
   margin-top: 14px;
   gap: 10px;
   justify-content: center;
+  margin-top: 22px;
 }
 .dot {
   width: 8px;
@@ -570,6 +571,115 @@ a {
 }
 .header-text:hover {
   cursor: pointer;
+}
+.footer {
+  display: flex;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  margin-top: 12px;
+}
+.zurag-1 {
+  display: flex;
+  width: 417px;
+  height: 236px;
+  background-color: #1b2632;
+  flex-shrink: 0;
+}
+.scroll-photo {
+  width: 196px;
+  height: 196px;
+  margin: 0;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  border-radius: 8px;
+}
+.goliin-ug {
+  color: white;
+  display: flex;
+  align-items: center;
+  /* margin: 0; */
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.text {
+  display: flex;
+  color: white;
+  position: relative;
+  top: 198px;
+  left: 15px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+.zurag-2 {
+  display: flex;
+  width: 417px;
+  height: 236px;
+  background-color: rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+.goliin-ug1 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.tom-zurag1 {
+  background-image: url(scroll-photo3.jpg);
+  width: 417px;
+  height: 236px;
+  background-position: center;
+  background-size: cover;
+}
+.tom-zurag2 {
+  background-image: url(scroll-photo4.jpg);
+  width: 417px;
+  height: 236px;
+  background-position: center;
+  background-size: cover;
+}
+.tom-zurag3 {
+  background-image: url(scroll-photo5.jpg);
+  width: 417px;
+  height: 236px;
+  background-position: center;
+  background-size: cover;
+}
+.tom-zurag4 {
+  background-image: url(scroll-photo6.jpg);
+  width: 417px;
+  height: 236px;
+  background-position: center;
+  background-size: cover;
+}
+.tom-zurag5 {
+  background-image: url(scroll-photo7.jpg);
+  width: 417px;
+  height: 236px;
+  background-position: center;
+  background-size: cover;
+}
+.tom-zurag6 {
+  background-image: url(scroll-photo9.jpg);
+  width: 417px;
+  height: 236px;
+  background-position: center;
+  background-size: cover;
+}
+.zurag-8 {
+  display: flex;
+  width: 417px;
+  height: 236px;
+  background-color: #f2416b;
+  flex-shrink: 0;
+}
+.zurag-10 {
+  display: flex;
+  width: 417px;
+  height: 236px;
+  background-color: grey;
+  flex-shrink: 0;
 }
 /* for tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
